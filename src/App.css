@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+
+body {
+  font-family: 'Onest Variable', sans-serif;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color : rgba(255, 255, 255, 0.95);
+  line-height: 1.4;
+  margin-botton: 1em;
+  font-weight: 100;
+  font-size: 1em;
+  letter-spacing: .5px;
+}
+
+p strong {
+  color: white;
+  font-weight 700;
+}
+
+
