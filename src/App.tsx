@@ -1,4 +1,5 @@
 import "./App.css";
+// @ts-ignore
 import "@fontsource-variable/onest";
 import Video from "./components/Video/Video.component";
 import BentoGrid from "./components/BentoGrid/BentoGrid.component";
